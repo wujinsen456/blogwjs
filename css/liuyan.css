@@ -1,0 +1,146 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+body,html{
+    width: 100%;
+    height: auto;
+}
+.bac{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top:0;
+    left: 0;
+    background: url("../img/bg9.jpg") no-repeat center;
+    background-size: 100%;
+    z-index: -1;
+}
+header{
+    width: 100%;
+    height: 60px;
+    background: #fff;
+    position: fixed;
+    top:0;
+    left: 0;
+    z-index: 100;
+}
+header .main{
+    width: 80%;
+    height:60px;
+    margin: 0 auto;
+}
+header .main .name{
+    width: 100px;
+    height: 60px;
+    float: left;
+    line-height: 60px;
+    font-size: 24px;
+}
+.menu {
+    width: 500px;
+    height: 60px;
+    float: right;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu .menu-item {
+    position: relative;
+    cursor: pointer;
+    font-size: 15px;
+    color: black;
+    text-align: center;
+}
+
+.menu .menu-item .wee {
+    height: 3px;
+    width: 100%;
+    background-color: #6bc30d;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    transition: 0.75s;
+}
+
+.menu .menu-item h6 {
+    margin: 0;
+    padding: 0 1rem 0;
+    font-size: 1rem;
+    line-height: 60px;
+    color: #232323;
+    transition: 0.75s;
+}
+
+.menu .menu-item:hover h6 { color: #002b75; }
+
+.menu .current-menu-item h6 { color: #002b75; }
+
+
+main{
+    width: 80%;
+    height: 425px;
+    margin: 0 auto;
+    background: #fff;
+    margin-top: 80px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+main h2{
+    width: 100%;
+    height: 42px;
+    font-size: 26px;
+    color: #333;
+    text-align: center;
+    line-height: 42px;
+}
+main p{
+    width: 100%;
+    height: 26px;
+    font-size: 16px;
+    color: #333;
+    text-align: center;
+    line-height: 26px;
+    margin: 20px auto;
+}
+main .tableH{
+    margin-top: 50px;
+    height: 43px;
+    padding: 3px 5px;
+    box-sizing: border-box;
+    border: 1px solid #bbbbbb;
+}
+main .tableH span{
+    float: left;
+    font-size: 20px;
+    color: #bbbbbb;
+}
+main .tableH img{
+    width: 18px;
+    height: 18px;
+    float: left;
+    margin: 6px 12px;
+}
+main .tableC{
+    height: 150px;
+    padding: 3px 5px;
+    box-sizing: border-box;
+    border: 1px solid #bbbbbb;
+    border-top: none;
+}
+main .button{
+    width: 90px;
+    height: 34px;
+    font-size: 14px;
+    color: #fff;
+    line-height: 34px;
+    text-align: center;
+    background: #6bc30d;
+    border-radius: 5px;
+    margin-top: 20px;
+}

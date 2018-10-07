@@ -1,0 +1,154 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+body,html{
+    width: 100%;
+    height: auto;
+}
+.bac{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top:0;
+    left: 0;
+    background: url("../img/bg9.jpg") no-repeat center;
+    background-size: 100%;
+    z-index: -1;
+}
+header{
+    width: 100%;
+    height: 60px;
+    background: #fff;
+    position: fixed;
+    top:0;
+    left: 0;
+    z-index: 100;
+}
+header .main{
+    width: 80%;
+    height:60px;
+    margin: 0 auto;
+}
+header .main .name{
+    width: 100px;
+    height: 60px;
+    float: left;
+    line-height: 60px;
+    font-size: 24px;
+}
+.menu {
+    width: 500px;
+    height: 60px;
+    float: right;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu .menu-item {
+    position: relative;
+    cursor: pointer;
+    font-size: 15px;
+    color: black;
+    text-align: center;
+}
+
+.menu .menu-item .wee {
+    height: 3px;
+    width: 100%;
+    background-color: #6bc30d;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    transition: 0.75s;
+}
+
+.menu .menu-item h6 {
+    margin: 0;
+    padding: 0 1rem 0;
+    font-size: 1rem;
+    line-height: 60px;
+    color: #232323;
+    transition: 0.75s;
+}
+
+.menu .menu-item:hover h6 { color: #002b75; }
+
+.menu .current-menu-item h6 { color: #002b75; }
+
+nav{
+    width: 100%;
+    height: 260px;
+    background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0,#3b87a5),color-stop(1,#1c1f22));
+    overflow: hidden;
+    position: relative;
+    margin-top: 40px;
+}
+nav img{
+    width: 100%;
+    height: 260px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+nav .word{
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    top: 80px;
+    left: 0;
+    font-size: 30px;
+    color: #fff;
+    line-height: 50px;text-align: center;
+}
+main{
+    width: 80%;
+    height: auto;
+    margin: 20px auto;
+    background: #fff;
+    padding: 10px 30px;
+    box-sizing: border-box;
+}
+main h2{
+    height: 50px;
+    line-height: 50px;
+    font-size: 16px;
+    color: #333;
+}
+main p{
+    height: 30px;
+    line-height: 30px;
+    font-size: 14px;
+    color: #333;
+}
+main .contact{
+    height: auto;
+
+}
+main .contact h3{
+    height: 40px;
+    line-height: 60px;
+    font-size: 14px;
+    font-weight: normal;
+}
+main .contact p{
+    height: 30px;
+    line-height: 30px;
+}
+main .contact img{
+    width: 240px;
+    height: 240px;
+}
+main .downPic{
+    height: 320px;
+    margin-top: 50px;
+}
+main .downPic img{
+    width: 100%;
+    height: 100%;
+}

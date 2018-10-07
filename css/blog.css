@@ -1,0 +1,330 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    text-decoration-color: white;
+}
+.bac{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top:0;
+    left: 0;
+    background: url("../img/bg9.jpg") no-repeat center;
+    background-size: 100%;
+    z-index: -1;
+}
+header{
+    width: 100%;
+    height: 60px;
+    background: #fff;
+    position: fixed;
+    top:0;
+    left: 0;
+    z-index: 100;
+}
+header .main{
+    width: 80%;
+    height:60px;
+    margin: 0 auto;
+}
+header .main .name{
+    width: 100px;
+    height: 60px;
+    float: left;
+    line-height: 60px;
+    font-size: 24px;
+}
+header .main ul li{
+    width: 75px;
+    height: 60px;
+    font-size: 15px;
+    color: black;
+    line-height: 60px;
+    text-align: center;
+}
+.menu {
+    width: 500px;
+    height: 60px;
+    float: right;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu .menu-item {
+    position: relative;
+    cursor: pointer;
+    font-size: 15px;
+    color: black;
+    text-align: center;
+}
+
+.menu .menu-item .wee {
+    height: 3px;
+    width: 100%;
+    background-color: #6bc30d;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    transition: 0.75s;
+}
+
+.menu .menu-item h6 {
+    margin: 0;
+    padding: 0 1rem 0;
+    font-size: 1rem;
+    line-height: 60px;
+    color: #232323;
+    transition: 0.75s;
+}
+
+.menu .menu-item:hover h6 { color: #002b75; }
+
+.menu .current-menu-item h6 { color: #002b75; }
+
+section{
+    width: 100%;
+    height: auto;
+    margin-top: 50px;
+}
+section main{
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+    padding-top: 20px;
+    box-sizing: border-box;
+}
+section main .mainL{
+    width: 73%;
+    height: auto;
+    background: rgba(255,255,255,0);
+    float: left;
+}
+section main .mainL .con{
+    background: rgba(255,255,255,1);
+    width: 100%;
+    height: auto;
+    padding: 20px 30px;
+    box-sizing: border-box;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+section main .mainL .con .top{
+    position: absolute;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    width: 74px;
+    background-color: #ff5722;
+    color: #fff;
+    transform: rotate(-45deg);
+    left: -18px;
+    top: 9px;
+}
+section main .mainL .con .time{
+    position: absolute;
+    width: 60px;
+    height: 70px;
+    top: 10px;
+    right:50px;
+}
+section main .mainL .con .time p{
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+    color: #6bc30d;
+    height: 42px;
+}
+section main .mainL .con .time span{
+    font-size: 14px;
+    color: #888888;
+}
+section main .mainL .con .title{
+    width: 650px;
+    height: 40px;
+    font-size: 16px;
+    color: #000;
+    line-height: 40px;
+    border-bottom: 1px solid #888888;
+}
+section main .mainL .con .title span{
+    color: cornflowerblue;
+}
+section main .mainL .con .title a{
+    color:#000;
+}
+section main .mainL .con .content{
+    width: 100%;
+    height: 200px;
+    margin-top: 20px;
+}
+section main .mainL .con .content img{
+    float: left;
+    width: 262px;
+    height: 180px;
+}
+section main .mainL .con .content p{
+    float: left;
+    width: 483px;
+    height: 180px;
+    font-size: 14px;
+    color: #2a2a2a;
+    padding-left: 25px;
+    box-sizing: border-box;
+    line-height: 20px;
+}
+section main .mainL .con .continue{
+    width: 100%;
+    height: 25px;
+}
+section main .mainL .con .continue a{
+    font-size: 14px;
+    color: #333;
+    font-weight: 600;
+    float: left;
+}
+section main .mainL .con .continue .line{
+    width: 650px;
+    height: 1px;
+    background: #bbbbbb;
+    float: right;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+section main .mainL .con .footer{
+    width: 100%;
+    height: 30px;
+    margin-top: 10px;
+}
+section main .mainL .con .footer .tab{
+    width: 15px;
+    height: 15px;
+    float: left;
+    background: url("../img/tab.png") no-repeat center;
+    background-size: 15px;
+    margin-top: 5px;
+}
+section main .mainL .con .footer .js{
+    width: 66px;
+    height: 22px;
+    background: #DEDEDE;
+    line-height: 22px;
+    text-align: center;
+    font-size: 12px;
+    color: #888888;
+    float: left;
+    margin-left: 20px;
+}
+section main .mainL .con .footer .wechat{
+     width: 50px;
+     height: 20px;
+     float: right;
+     font-size: 12px;
+     color: #888888;
+     line-height: 20px;
+ }
+section main .mainL .con .footer .wechat img{
+    width: 18px;
+    height: 18px;
+}
+section main .mainL .con .footer .wechat span{
+    line-height:20px;
+}
+section main .mainL .con .footer .eye{
+    width: 50px;
+    height: 20px;
+    float: right;
+    font-size: 12px;
+    color: #888888;
+    line-height: 20px;
+}
+section main .mainL .con .footer .eye img{
+    width: 15px;
+    height: 15px;
+}
+section main .mainL .con .footer .eye span{
+    line-height:20px;
+}
+section main .mainR{
+    width: 25%;
+    height: auto;
+    background: rgba(0,0,0,0);
+    float: right;
+}
+section main .mainR .search{
+    width: 100%;
+    height: 80px;
+    padding: 20px;
+    background-color: grey;
+    box-sizing: border-box;
+}
+section main .mainR .search input{
+    padding-left: 30px;
+    box-sizing: border-box;
+    border: none;
+    height: 40px;
+    line-height: 40px;
+    width: 100%;
+    box-shadow: none;
+    background-color: #fff;
+    border-radius: 20px;
+}
+section main .mainR .list{
+    width: 100%;
+    height: 290px;
+    padding: 20px;
+    background: #fff;
+    box-sizing: border-box;
+    margin-bottom: 25px;
+}
+section main .mainR .list .li{
+    height: 40px;
+    line-height: 40px;
+    font-size: 14px;
+    color: #888888;
+    padding-left: 20px;
+    box-sizing: border-box;
+}
+section main .mainR .hot{
+    height: auto;
+    padding: 30px;
+    box-sizing: border-box;
+    background: #fff;
+}
+section main .mainR .hot .head{
+    height: 40px;
+    font-size: 18px;
+    color: #333;
+    line-height: 40px;
+    border-bottom: 1px solid #bbbbbb;
+}
+section main .mainR .hot .li{
+    height: 32px;
+}
+section main .mainR .hot .li a{
+    font-size: 12px;
+    color: #888888;
+    height: 32px;
+    line-height: 28px;
+    padding-left: 10px;
+    box-sizing: border-box;
+}
+section main .mainR .hot .li::before{
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background: red;
+    float:left;
+    content: '1';
+    color: #fff;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    margin-top: 4px;
+}
+/*section main .mainR .hot .li::before*/
